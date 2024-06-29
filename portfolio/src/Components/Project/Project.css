@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.Projects{
+    width: 100%;
+    max-width: 1440px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.Projects h1{
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+}
