@@ -1,15 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
-.Projects{
+.Projects {
     width: 100%;
-    max-width: 1440px;
-    padding-top: 30px;
-    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.Projects h1{
+.Projects h1 {
     font-family: "Lexend Deca", sans-serif;
     text-align: center;
     font-weight: 600;
     font-size: 60px;
 }
+
+.Slides-Projects {
+    display: flex;
+}
+
+.Slide {
+    display: flex;
+    gap: 20px; /* Espaço entre a imagem e a descrição */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Slide-image img {
+    width: 700px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas, se desejado */
+}
+
+.Slide-description {
+    max-width: 500px; /* Ajuste o tamanho conforme necessário */
+    position: relative; /* Adicione esta linha */
+    padding-bottom: 60px; /* Adicione espaço suficiente para o botão */
+}
+
+.Slide-description h1, h2 {
+    margin: 0 0 10px 0;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+.Slide-description img {
+    width: 24px; /* Tamanho dos ícones */
+    height: auto;
+}
+
+
+
