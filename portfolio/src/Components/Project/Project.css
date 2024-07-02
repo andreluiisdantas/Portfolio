@@ -15,37 +15,44 @@
 
 .Slides-Projects {
     display: flex;
+    padding: 0 20px;
 }
 
 .Slide {
     display: flex;
-    gap: 20px; /* Espaço entre a imagem e a descrição */
+    gap: 20px;
     padding: 20px;
     box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
 }
 
 .Slide-image img {
-    width: 700px; /* Ajuste o tamanho conforme necessário */
+    width: 100%;
     height: auto;
     border-radius: 8px; /* Bordas arredondadas, se desejado */
 }
 
 .Slide-description {
-    max-width: 500px; /* Ajuste o tamanho conforme necessário */
     position: relative; /* Adicione esta linha */
-    padding-bottom: 60px; /* Adicione espaço suficiente para o botão */
+    width: 50%;
+    height: 100%;
 }
 
 .Slide-description h1, h2 {
-    margin: 0 0 10px 0;
+    display: flex;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
 }
 
 .Slide-description img {
-    width: 24px; /* Tamanho dos ícones */
+    width: 64px; /* Tamanho dos ícones */
     height: auto;
 }
 
-
+.btn-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 

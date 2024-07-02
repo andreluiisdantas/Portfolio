@@ -5,6 +5,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Button from '../Button';
 register();
 
 const data = [
@@ -12,8 +13,8 @@ const data = [
         id: '1', 
         image: 'https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-powder-smoke-colorful-background-image_2164096.jpg',
         name: 'Projeto 1',
-        descricao: 'descrição do projeto',
-        icones: 'link dos ícones',
+        descricao: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
+        icones: '../../images/react-icon.png',
         link: 'link do github'
     },
     { 
@@ -41,8 +42,8 @@ const Project = () => {
             <h1>Meus Projetos</h1>
             <Swiper
                 slidesPerView={1}
-                pagination={{ clickable: true }}
                 navigation
+                pagination={{ clickable: true }}
             >
                 {data.map((item) => (
                     <SwiperSlide key={item.id} className='Slides-Projects'>
@@ -54,11 +55,15 @@ const Project = () => {
                                     className='Slide-item'
                                 />
                             </div>
+
                             <div className='Slide-description'>
                                 <h1>{item.name}</h1>
                                 <h2>{item.descricao}</h2>
                                 <img src={item.icones} alt="Ícones"/>
                             </div>
+                        </div>
+                        <div className='btn-slide'>
+                            <Button text="Acessar"/>
                         </div>
                     </SwiperSlide>
                 ))}
