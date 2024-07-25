@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+.Portfolio{
+    padding: 10% 10%;
+}
+
+.Portfolio .Title{
+    display: flex;
+    align-self: start;
+    padding-bottom: 5%;
+}
+
+.Function{
+    display: flex;
+    padding: 75px 0;
+}
+
+.Front-end h1{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.Text p{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: justify;
+    color: #535353;
+}

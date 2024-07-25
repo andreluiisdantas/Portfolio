@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Home{
+    width: 100%;
+}
+
+.About-me{
+    display: inline-block;
+    padding: 12% 10%;
+}
+
+.About-me h2{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.About-me h1{
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    padding: 3% 0;
+}
