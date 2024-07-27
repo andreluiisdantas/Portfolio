@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .Navbar {
-    max-width: 1920px;
-    max-height: 50px;
+    width: 100%;
     display: flex;
+    position: fixed;
     padding: 10px;
     justify-content: space-between; 
     align-items: center; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+    background-color: #ffff;
+    z-index: 1000;
 }
 
 .Links {

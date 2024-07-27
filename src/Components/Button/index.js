@@ -2,7 +2,7 @@ import './Button.css'
 
 const Button = (props) => {
     return(
-     <button href='#'>
+     <button href={'#'}>
         {props.text}
      </button>
     )
